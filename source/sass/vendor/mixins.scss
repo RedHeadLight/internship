@@ -1,0 +1,249 @@
+// @mixin huge-title {
+//   font-size: 77px;
+//   font-weight: 800;
+//   line-height: 1;
+
+//   @media (max-width: $tablet) {
+//     font-size: 56px;
+//   }
+
+//   @media (max-width: $mobile) {
+//     font-size: 30px;
+//   }
+// }
+// шрифтовые миксины
+@mixin h1 {
+  font-family: Manrope;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 62px;
+
+  @media (max-width: $tablet) {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+
+@mixin h2 {
+  font-family: Manrope;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+
+  @media (max-width: $tablet) {
+    font-size: 34px;
+    line-height: 50px;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+@mixin h3 {
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+
+  @media (max-width: $tablet) {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@mixin h4 {
+  font-family: Manrope;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+
+  @media (max-width: $tablet) {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@mixin h5 {
+  font-family: Manrope;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.26px;
+  text-transform: uppercase;
+
+  @media (max-width: $tablet) {
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.16px;
+  }
+}
+
+@mixin h6 {
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+
+  @media (max-width: $tablet) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@mixin text-big {
+  font-family: Manrope;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+
+  @media (max-width: $tablet) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@mixin text-medium {
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+
+  @media (max-width: $tablet) {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@mixin text-regular {
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+
+  @media (max-width: $tablet) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@mixin text-small {
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+
+  @media (max-width: $mobile) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@mixin text-extrasmall {
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+
+  @media (max-width: $tablet) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+@mixin text-extraextrasmall {
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+
+  @media (max-width: $mobile) {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+@mixin caption {
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+}
+
+@mixin button {
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+
+  @media (max-width: $mobile) {
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.24px;
+  }
+}
