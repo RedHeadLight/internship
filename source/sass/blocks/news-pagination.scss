@@ -1,0 +1,26 @@
+.news-pagination {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.news-pagination__wrapper {
+  display: flex;
+  gap: 20px;
+  width: 188px;
+  align-items: center;
+}
+
+.news-pagination__button {
+  border: none;
+  color: #316DC2;
+}
+
+.pagination-button--current {
+  border-radius: 20px;
+  background-color: #316DC2;
+  color: #FFFFFF;
+  width: 32px;
+  height: 32px;
+}

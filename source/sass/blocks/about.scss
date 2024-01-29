@@ -1,6 +1,6 @@
 .about__container {
   background-color: #F0EFE9;
-  padding: 120px 100px;
+  padding: 0 100px 120px 100px;
 }
 
 .about__container h2 {
@@ -25,24 +25,8 @@
 }
 
 .about__button {
-  display: flex;
-  padding: 4px 4px 4px 30px;
-  align-items: center;
-  gap: 30px;
-  border-radius: 30px;
-  background-color: #FFFF;
-  border: 1px solid #316DC2;
-  color: #316DC2;
-  @include button;
-  padding: 4px 4px 4px 30px;
   width: 277px;
   height: 54px;
-}
-
-.about__icon {
-  padding: 18px;
-  background-color: #316DC2;
-  border-radius: 44px;
 }
 
 .about__wrapper {

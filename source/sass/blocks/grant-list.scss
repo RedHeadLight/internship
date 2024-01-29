@@ -1,0 +1,11 @@
+.grant-list__item {
+  @include text-regular;
+  color: #F0EFE9;
+  padding: 30px 25px;
+  border-radius: 16px;
+  border: 1px solid #F0EFE9;
+}
+
+.grant-list__item p {
+  margin: 0;
+}

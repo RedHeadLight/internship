@@ -1,0 +1,11 @@
+.arrow-button {
+  display: flex;
+  padding: 4px 4px 4px 30px;
+  align-items: center;
+  gap: 30px;
+  border-radius: 30px;
+  background-color: #FFFF;
+  border: 1px solid #316DC2;
+  color: #316DC2;
+  @include button;
+}

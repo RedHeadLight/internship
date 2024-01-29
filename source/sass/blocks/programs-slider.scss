@@ -1,0 +1,25 @@
+.programs-slider {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 32px;
+  width: 392px;
+  margin: 0;
+}
+
+.programs-slider__scale {
+  width: 392px;
+  height: 2px;
+  background-color: #316DC2;
+  border: none;
+}
+
+.programs-slider__controls {
+  display: flex;
+}
+
+.programs-slider__button {
+  padding: 6px;
+  background-color: #F0EFE9;
+  border: none;
+}

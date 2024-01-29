@@ -10,8 +10,32 @@
 @import "global.scss";
 @import "mixins.scss";
 
+
 // BLOCKS
 @import "blocks/container.scss";
 @import "blocks/header.scss";
 @import "blocks/hero.scss";
 @import "blocks/about.scss";
+@import "blocks/programs.scss";
+@import "blocks/arrow-icon.scss";
+@import "blocks/arrow-button.scss";
+@import "blocks/programs-slider.scss";
+@import "blocks/programs-card.scss";
+@import "blocks/grant.scss";
+@import "blocks/grant-list.scss";
+@import "blocks/news.scss";
+@import "blocks/tabs-list.scss";
+@import "blocks/news-slider.scss";
+@import "blocks/news-pagination.scss";
+@import "blocks/faq.scss";
+@import "blocks/faq-accordion.scss";
+@import "blocks/accordion-item.scss";
+@import "blocks/accordion-toggle.scss";
+@import "blocks/reviews.scss";
+@import "blocks/reviews-slider.scss";
+@import "blocks/reviews-card.scss";
+@import "blocks/contacts.scss";
+@import "blocks/contacts-list.scss";
+@import "blocks/form.scss";
+@import "blocks/footer.scss";
+@import "blocks/social-list.scss";

@@ -1,0 +1,22 @@
+.reviews {
+  background-color: #F0EFE9;
+}
+
+.reviews__container h2 {
+  color: #316DC2;
+  margin: 0;
+  @include h2;
+}
+
+.reviews__container {
+  display: grid;
+  gap: 40px;
+}
+
+.reviews__slider {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 32px;
+}
+

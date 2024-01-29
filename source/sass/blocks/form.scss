@@ -1,0 +1,96 @@
+.form__container {
+  background-color: #F0EFE9;
+  display: flex;
+  position: relative;
+}
+
+.form__container form {
+  margin-top: 40px;
+}
+
+.form__wrapper {
+  padding: 70px 74px;
+  width: 498px;
+  position: absolute;
+  left: 100px;
+  top: 120px;
+  z-index: 0;
+  background-color: #316DC2;
+  border-radius: 16px;
+}
+
+.form__wrapper h2 {
+  color: #FFFFFF;
+  @include h3;
+  margin-bottom: 0 0 38px 0;
+}
+
+.form__wrapper span {
+  @include text-regular;
+  color: #FFFFFF;
+}
+
+.form__field-wrapper label {
+  width: 100%;
+  display: block;
+  margin-bottom: 12px;
+  opacity: 0.8;
+  @include text-extrasmall;
+  color: #F0EFE9;
+}
+
+.form__field-wrapper {
+  margin-bottom: 20px;
+}
+
+.form__field-wrapper input {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.30);
+  background-color: #316DC2;
+  width: 350px;
+  height: 50px;
+}
+
+.form__field-wrapper textarea {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.30);
+  background-color: #316DC2;
+  width: 350px;
+  height: 120px;
+}
+
+.form__checkbox {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.form__checkbox input {
+  width: 20px;
+  height: 20px;
+  padding: 6px 4px;
+  background-color: #FFFFFF;
+}
+
+.form__button {
+  border-radius: 30px;
+  border: 1px solid #FFFFFF;
+  padding: 4px 4px 4px 30px;
+  display: flex;
+  gap: 30px;
+  @include button;
+  color: #FFFFFF;
+  background-color: #316DC2;
+  width: 350px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__button span {
+  background-color: #FFFFFF;
+  border-radius: 44px;
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

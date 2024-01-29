@@ -1,0 +1,18 @@
+.news__container {
+  background-color: #F0EFE9;
+}
+
+.news__container h2 {
+  @include h2;
+  color: #316DC2;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.news__list {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  justify-content: center;
+}

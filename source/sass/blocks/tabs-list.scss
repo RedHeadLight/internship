@@ -1,0 +1,11 @@
+.tabs-list__button {
+  border-radius: 20px;
+  border: 1px solid #316DC2;
+  padding: 14px 26px;
+  color: #316DC2;
+  @include button;
+}
+
+.tabs-list {
+  margin-bottom: 40px;
+}

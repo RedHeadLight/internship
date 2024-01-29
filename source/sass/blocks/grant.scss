@@ -1,0 +1,33 @@
+.grant__container {
+  padding: 120px 100px;
+  background-color: #316DC2;
+  display: grid;
+  grid-template-columns: 498px 478px;
+  gap: 138px;
+}
+
+.grant__wrapper h2 {
+  @include h2;
+  color: #FFFF;
+  margin: 0;
+  margin-bottom: 42px;
+}
+
+.grant__wrapper p {
+  @include text-regular;
+  color: #F0EFE9;
+  margin-bottom: 40px;
+}
+
+.grant__wrapper h3 {
+  @include h3;
+  color: #FFFF;
+}
+
+.grant__list {
+  list-style-type: none;
+  padding: 0;
+  gap: 23px;
+  display: grid;
+  margin: 0;
+}

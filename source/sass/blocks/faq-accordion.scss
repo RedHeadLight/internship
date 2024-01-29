@@ -1,0 +1,29 @@
+.faq-accordion {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.faq-accordion__item {
+  display: flex;
+  color: #316DC2;
+  @include h4;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid #316DC2;
+}
+
+.faq-accordion__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.faq-accordion__toggle {
+  border-radius: 20px;
+  border: 1px solid #316DC2;
+  width: 40px;
+  height: 40px;
+  background-color: #316DC2;
+}

@@ -1,0 +1,18 @@
+.contacts-list__item span {
+  color: #FFFF;
+  @include text-extraextrasmall;
+}
+
+.contacts-list__item p {
+  color: #FFFF;
+  @include text-regular;
+  width: 263px;
+}
+
+.contacts-list__link {
+  text-decoration: none;
+  color: #FFFF;
+  width: 132px;
+  margin-top: 24px;
+  display: block;
+}

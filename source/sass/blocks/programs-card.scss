@@ -1,0 +1,43 @@
+.programs-card__button {
+  padding: 10px;
+  background-color: #316DC2;
+  border-radius: 44px;
+  display: flex;
+  border: 1px solid #316DC2;
+  height: 30px;
+}
+
+.programs-card__texts {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  border-radius: 0px 12px 12px 12px;
+  background-color: #FFFF;
+  width: 321px;
+  padding: 12px 18px 15px 18px;
+}
+
+.programs-card__wrapper span {
+  @include h6;
+  color: #316DC2;
+  background-color: #FFFF;
+  border-radius: 12px 12px 0px 0px;
+  padding: 18px 18px 6px 18px;
+}
+
+.programs-card__wrapper {
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  top: 258px;
+  padding: 20px 50px 20px 20px;
+}
+
+.programs-card {
+  position: relative;
+}
+
+.programs-card__texts p {
+  @include text-extrasmall;
+  color: #484848;
+}

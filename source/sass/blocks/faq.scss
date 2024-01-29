@@ -1,0 +1,12 @@
+.faq__container {
+  padding: 0 200px;
+  background-color: #F0EFE9;
+}
+
+.faq__container h2 {
+  color: #316DC2;
+  text-align: center;
+  @include h2;
+  padding: 11px 9px 13px 9px;
+  margin-bottom: 60px;
+}

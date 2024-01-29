@@ -1,0 +1,63 @@
+.reviews-card__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews-card span {
+  color: #316DC2;
+  @include h6;
+  margin-bottom: 20px;
+}
+
+.reviews-card p {
+  @include text-regular;
+  color: #484848;
+}
+
+.reviews-card__user span {
+  @include text-medium;
+  color: #316DC2;
+  text-align: center;
+}
+
+.reviews-card__user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.reviews-card__program {
+  display: grid;
+  gap: 11px;
+}
+
+.reviews-card__program span {
+  color: #316DC2;
+  @include text-extraextrasmall;
+}
+
+.reviews-card__program b {
+  color: #484848;
+  @include text-extrasmall;
+}
+
+.reviews-card__details {
+  display: flex;
+  gap: 25px;
+}
+
+.reviews-card__dates {
+  display: grid;
+  gap: 11px;
+}
+
+.reviews-card__dates span {
+  color: #316DC2;
+  @include text-extraextrasmall;
+}
+
+.reviews-card__dates b {
+  color: #484848;
+  @include text-extrasmall;
+}

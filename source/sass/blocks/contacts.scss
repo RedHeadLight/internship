@@ -1,0 +1,22 @@
+.contacts {
+  background-color: #316DC2;
+}
+
+.contacts__wrapper h2 {
+  color: #FFFF;
+  @include h2;
+  margin: 0 0 80px 0;
+}
+
+.contacts__list  {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 52px;
+  margin: 0;
+}
+
+.contacts__wrapper {
+  display: flex;
+  gap: 413px;
+}
