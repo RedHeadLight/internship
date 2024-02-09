@@ -1,5 +1,10 @@
 .news__container {
   background-color: #F0EFE9;
+
+  @media (max-width: $mobile) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .news__container h2 {
@@ -8,11 +13,8 @@
   margin: 0 auto;
   text-align: center;
   margin-bottom: 52px;
-}
 
-.news__list {
-  display: flex;
-  list-style-type: none;
-  gap: 30px;
-  justify-content: center;
+  @media (max-width: $mobile) {
+    margin-bottom: 24px;
+  }
 }

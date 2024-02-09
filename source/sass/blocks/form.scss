@@ -22,7 +22,7 @@
 .form__wrapper h2 {
   color: #FFFFFF;
   @include h3;
-  margin-bottom: 0 0 38px 0;
+  margin: 0 0 38px 0;
 }
 
 .form__wrapper span {
@@ -43,7 +43,7 @@
   margin-bottom: 20px;
 }
 
-.form__field-wrapper input {
+.form__field-wrapper input, .form__field-wrapper textarea {
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.30);
   background-color: #316DC2;
@@ -52,11 +52,8 @@
 }
 
 .form__field-wrapper textarea {
-  border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.30);
-  background-color: #316DC2;
-  width: 350px;
   height: 120px;
+  resize: none;
 }
 
 .form__checkbox {
@@ -70,6 +67,10 @@
   height: 20px;
   padding: 6px 4px;
   background-color: #FFFFFF;
+  appearance: none;
+  background-image: url(/img/svg/check.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .form__button {

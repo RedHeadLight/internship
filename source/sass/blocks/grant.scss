@@ -4,6 +4,17 @@
   display: grid;
   grid-template-columns: 498px 478px;
   gap: 138px;
+
+  @media (max-width: $tablet) {
+    padding: 100px 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  @media (max-width: $mobile) {
+    padding: 67px 15px;
+  }
 }
 
 .grant__wrapper h2 {
@@ -11,17 +22,44 @@
   color: #FFFF;
   margin: 0;
   margin-bottom: 42px;
+
+  @media (max-width: $tablet) {
+    margin-bottom: 44px;
+  }
+
+  @media (max-width: $mobile) {
+    margin-bottom: 21px;
+  }
 }
 
 .grant__wrapper p {
   @include text-regular;
   color: #F0EFE9;
   margin-bottom: 40px;
+
+  @media (max-width: $tablet) {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  @media (max-width: $mobile) {
+    margin-bottom: 30px;
+  }
 }
 
 .grant__wrapper h3 {
   @include h3;
   color: #FFFF;
+
+  @media (max-width: $tablet) {
+    margin-top: 50px;
+    margin-bottom: 45px;
+  }
+
+  @media (max-width: $mobile) {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
 }
 
 .grant__list {
@@ -30,4 +68,18 @@
   gap: 23px;
   display: grid;
   margin: 0;
+
+  @media (max-width: $tablet) {
+    grid-template-columns: 305px 305px;
+    gap: 25px 47px;
+  }
+
+  @media (max-width: $mobile) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.grant__wrapper img {
+  border-radius: 16px;
 }

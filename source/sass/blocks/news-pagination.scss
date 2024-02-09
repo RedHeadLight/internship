@@ -3,6 +3,7 @@
   list-style-type: none;
   padding: 0;
   justify-content: space-between;
+  align-items: center;
 }
 
 .news-pagination__wrapper {
@@ -10,11 +11,29 @@
   gap: 20px;
   width: 188px;
   align-items: center;
+  justify-content: center;
+
+  @media (max-width: $mobile) {
+    gap: 16px;
+  }
 }
 
 .news-pagination__button {
   border: none;
   color: #316DC2;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+
+  @media (max-width: $mobile) {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px; /* 100% */
+    text-transform: uppercase;
+  }
 }
 
 .pagination-button--current {

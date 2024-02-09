@@ -2,13 +2,15 @@
 // ---------------------------------
 
 @import "vendor/normalize";
+@import "vendor/custom-select";
 
 @import "var.scss";
-
+@import "mixins.scss";
+@import "fonts.scss";
 // Global
 
 @import "global.scss";
-@import "mixins.scss";
+
 
 
 // BLOCKS
@@ -16,9 +18,9 @@
 @import "blocks/header.scss";
 @import "blocks/hero.scss";
 @import "blocks/about.scss";
-@import "blocks/programs.scss";
 @import "blocks/arrow-icon.scss";
 @import "blocks/arrow-button.scss";
+@import "blocks/programs.scss";
 @import "blocks/programs-slider.scss";
 @import "blocks/programs-card.scss";
 @import "blocks/grant.scss";

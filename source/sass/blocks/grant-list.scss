@@ -1,11 +1,31 @@
+.grant-list {
+  counter-reset: grant-counter;
+}
+
 .grant-list__item {
   @include text-regular;
   color: #F0EFE9;
   padding: 30px 25px;
   border-radius: 16px;
   border: 1px solid #F0EFE9;
+  counter-increment: grant-counter;
+  position: relative;
+
+  &::after {
+    content: counter(grant-counter);
+    background-color: #316DC2;
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    top: 0;
+    left: 0;
+    top: -15px;
+    left: -14px;
+    padding: 10px;
+  }
 }
 
 .grant-list__item p {
   margin: 0;
 }
+

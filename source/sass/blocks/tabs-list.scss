@@ -1,11 +1,39 @@
 .tabs-list__button {
   border-radius: 20px;
-  border: 1px solid #316DC2;
+  border: none;
   padding: 14px 26px;
   color: #316DC2;
   @include button;
+
+  @media (max-width: $tablet) {
+    padding: 14px 20px;
+  }
+
+  @media (max-width: $mobile) {
+    padding: 10px 14px;
+  }
+}
+
+.tabs-list__button--current {
+  border: 1px solid #316DC2;
 }
 
 .tabs-list {
-  margin-bottom: 40px;
+  margin: 0 0 40px;
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  justify-content: center;
+  padding: 0;
+
+  @media (max-width: $tablet) {
+    gap: 10px;
+    margin: 0 0  30px;
+  }
+
+  @media (max-width: $mobile) {
+    justify-content: flex-start;
+    margin-bottom: 24px;
+  }
 }
+

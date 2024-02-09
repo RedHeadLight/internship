@@ -13,10 +13,25 @@
 
 .reviews-slider__controls {
   display: flex;
+  gap: 52px;
+  align-items: center;
+}
+
+.reviews-slider__scales {
+  width: 1134px;
+  height: 2px;
+  background-color: rgba(49, 109, 194, 0.2);
+}
+
+.reviews-slider__buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .reviews-slider__button {
   padding: 6px;
   background-color: #F0EFE9;
   border: none;
+  align-items: center;
 }

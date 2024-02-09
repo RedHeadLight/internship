@@ -3,8 +3,17 @@
   padding: 0;
   display: flex;
   gap: 32px;
-  width: 392px;
   margin: 0;
+
+  @media (max-width: $tablet) {
+    padding: 40px 25px;
+    gap: 30px;
+  }
+
+  @media (max-width: $mobile) {
+    padding: 12px 0 15px 0;
+    width: 290px;
+  }
 }
 
 .programs-slider__scale {
@@ -16,10 +25,52 @@
 
 .programs-slider__controls {
   display: flex;
+  gap: 52px;
+  margin-top: 52px;
+  align-items: center;
+
+  @media (max-width: $tablet) {
+    margin-top: 40px;
+    padding: 0 45px;
+    gap: 64px;
+  }
+}
+
+.programs-slider__buttons {
+
+  @media (max-width: $mobile) {
+    position: absolute;
+    top: 57px;
+    right: 15px;
+  }
 }
 
 .programs-slider__button {
   padding: 6px;
   background-color: #F0EFE9;
   border: none;
+}
+
+.programs-slider__scales {
+  width: 1134px;
+  height: 2px;
+  background-color: rgba(49, 109, 194, 0.2);
+
+  @media (max-width: $tablet) {
+    width: 560px;
+  }
+
+  @media (max-width: $mobile) {
+  display: none;
+  }
+}
+
+.programs-slider__scrollbar {
+  width: 392px;
+  height: 2px;
+  background-color: #316DC2;
+
+  @media (max-width: $tablet) {
+    width: 324px;
+  }
 }

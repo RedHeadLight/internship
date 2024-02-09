@@ -26,4 +26,37 @@
   width: 40px;
   height: 40px;
   background-color: #316DC2;
+  position: relative;
+
+  &::after {
+    content: " ";
+    width: 18px;
+    height: 2px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 19px;
+    left: 10px;
+  }
+
+  &::before {
+    content: " ";
+    width: 2px;
+    height: 18px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 11px;
+    left: 18px;
+  }
+}
+
+.accordion-toggle--current {
+  position: relative;
+
+  &::after {
+    background-color: #316DC2;
+  }
+
+  &::before {
+    display: none;
+  }
 }

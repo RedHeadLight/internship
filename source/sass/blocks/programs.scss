@@ -7,8 +7,38 @@
 .programs__wrapper h2 {
   color: #316DC2;
   @include h2;
+  margin: 0;
+
+  @media (max-width: $mobile) {
+    margin-bottom: 30px;
+  }
 }
 
 .programs {
   background-color: #F0EFE9;
+  overflow-x: hidden;
+}
+
+.programs__container {
+
+  @media (max-width: $tablet) {
+    padding: 100px 0;
+  }
+
+  @media (max-width: $mobile) {
+    padding: 60px 15px;
+    position: relative;
+  }
+}
+
+.programs__button {
+
+  @media (max-width: $mobile) {
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+    width: 203px;
+    padding: 4px 4px 4px 30px;
+    gap: 30px;
+  }
 }

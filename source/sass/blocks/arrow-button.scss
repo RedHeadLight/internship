@@ -8,4 +8,10 @@
   border: 1px solid #316DC2;
   color: #316DC2;
   @include button;
+
+  @media (max-width: $mobile) {
+    width: 152px;
+    gap: 20px;
+    padding: 4px 4px 4px 20px;
+  }
 }

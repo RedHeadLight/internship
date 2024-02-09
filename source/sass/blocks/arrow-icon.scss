@@ -3,4 +3,8 @@
   background-color: #316DC2;
   border-radius: 44px;
   display: flex;
+
+  @media (max-width: $mobile) {
+    padding: 12px;
+  }
 }

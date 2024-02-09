@@ -27,19 +27,16 @@
   margin-bottom: 30px;
 }
 
-.reviews-card__program {
-  display: grid;
-  gap: 11px;
-}
-
 .reviews-card__program span {
   color: #316DC2;
   @include text-extraextrasmall;
+  display: block;
 }
 
 .reviews-card__program b {
   color: #484848;
   @include text-extrasmall;
+  display: block;
 }
 
 .reviews-card__details {
@@ -47,17 +44,14 @@
   gap: 25px;
 }
 
-.reviews-card__dates {
-  display: grid;
-  gap: 11px;
-}
-
 .reviews-card__dates span {
   color: #316DC2;
   @include text-extraextrasmall;
+  display: block;
 }
 
 .reviews-card__dates b {
   color: #484848;
   @include text-extrasmall;
+  display: block;
 }

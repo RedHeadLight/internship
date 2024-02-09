@@ -1,12 +1,26 @@
 .hero {
-  padding: 30px 100px 60px 100px;
   background-image: url(../img/hero-bg.jpg);
   background-size: cover;
+}
+
+.hero__container {
+  padding: 30px 100px 60px 100px;
+
+  @media (max-width: $tablet) {
+    padding: 30px 45px 60px 45px;
+  }
+
+  @media (max-width: $mobile) {
+    padding: 20px 15px;
+  }
 }
 
 .hero__slider-button {
   border: none;
   background-color: transparent;
+  padding: 0;
+  width: 10px;
+  height: 10px;
 }
 
 .hero__slider-buttons {
@@ -15,6 +29,28 @@
   border-radius: 20px 20px 0px 0px;
   background-color: #fff;
   margin-top: 325px;
+  display: flex;
+  gap: 12px;
+  position: relative;
+
+  &::after {
+    content: " ";
+    background-image: url(/img/svg/angle-left-down.svg);
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+    width: 20px;
+    height: 20px;
+  }
+
+  @media (max-width: $tablet) {
+    margin-top: 569px;
+  }
+
+  @media (max-width: $mobile) {
+    margin-top: 139px;
+    padding: 14px 16px;
+  }
 }
 
 .hero__container h1 {
@@ -24,6 +60,14 @@
   @include h1;
   border-radius: 0px 30px 30px 0px;
   margin: 0;
+
+  @media (max-width: $tablet) {
+    padding: 30px 40px 24px 40px;
+  }
+
+  @media (max-width: $mobile) {
+    padding: 20px 25px 14px 16px;
+  }
 }
 
 .hero__button {
@@ -39,6 +83,11 @@
   color: #316DC2;
   @include button;
   background-color: #fff;
+
+  @media (max-width: $mobile) {
+    width: 152px;
+    padding: 10px 15px;
+  }
 }
 
 .hero__text-cover {
@@ -47,6 +96,28 @@
   width: 772px;
   padding: 0px 50px 35px 50px;
   border-radius: 0px 0px 30px 30px;
+  position: relative;
+
+  &::after {
+    content: " ";
+    background-image: url(/img/svg/angle-left-top.svg);
+    position: absolute;
+    top: 0;
+    right: -26px;
+    width: 26px;
+    height: 26px;
+  }
+
+  @media (max-width: $tablet) {
+    width: 561px;
+    padding: 0 40px 35px 40px;
+  }
+
+  @media (max-width: $mobile) {
+    padding: 0 14px 15px 14px;
+    width: 267px;
+    display: grid;
+  }
 }
 
 .hero__icon {
@@ -57,4 +128,5 @@
 
 .hero__text-cover p {
   @include text-regular;
+  margin: 0;
 }
